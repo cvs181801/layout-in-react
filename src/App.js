@@ -1,5 +1,7 @@
 
 import './App.css';
+import Product from './Product'
+import Spec from './Spec'
 
 function App() {
   return (
@@ -7,18 +9,18 @@ function App() {
         <div 
           className="App__products">
             <h1>Imagine your brand here</h1> 
-            <p>Imagine your brand here Imagine your brand here Imagine your brand here  
-            Imagine your brand here Imagine your brand here Imagine your brand here</p>
-            <p>Photo by Rodion Kutsaiev on Pexels</p>
+            <Product/>
+            <Product/>
+            <Product/>
         </div>
-        <div
-          className="App__specs"
-        > 
-        <p>Imagine your product specs here Imagine your product specs here 
-        Imagine your product specs here Imagine your product specs here Imagine your product specs here 
-        </p>
-        </div>
-      
+
+          <div
+            className="App__specs"
+          > 
+          <Spec/>
+          <Spec/>
+          <Spec/>
+          </div>
     
     </div>
   );

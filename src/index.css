@@ -35,7 +35,7 @@ code {
 .App__products {
   background-color: rgba(85, 78, 78, .2);
   background-image: url("/Users/casvalkyriespicer/Documents/GitHub/layout-in-react/src/productdisplay2.jpeg");
-  background-repeat: repeat-y;
+  background-repeat: no-repeat;
   background-blend-mode: darken;
   background-size: contain;
   max-width: 65vw;
@@ -50,4 +50,11 @@ code {
   max-width: 35vw;
   height: 100vh;
   border: 2px solid green;
+}
+
+.Product {
+  width: 15rem;
+  height: 15rem;
+  color: navy;
+  background-color: green;
 }
