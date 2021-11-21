@@ -34,11 +34,11 @@ code {
 
 .App__products {
   background-color: rgba(85, 78, 78, .2);
-  background-image: url("/Users/casvalkyriespicer/Documents/GitHub/layout-in-react/src/productlayout3.jpeg");
-  background-repeat: no-repeat;
+  background-image: url("/Users/casvalkyriespicer/Documents/GitHub/layout-in-react/src/productdisplay2.jpeg");
+  background-repeat: repeat-y;
   background-blend-mode: darken;
   background-size: contain;
-  max-width: 70vw;
+  max-width: 65vw;
   height: 100vh;
   /* width: 100%;
   object-fit: contain;
@@ -47,7 +47,7 @@ code {
 }
 
 .App__specs {
-  max-width: 30vw;
+  max-width: 35vw;
   height: 100vh;
   border: 2px solid green;
 }
