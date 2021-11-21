@@ -1,5 +1,15 @@
-body {
+
+* {
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
+}
+
+body {
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +20,19 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App {
+  background-image: url("/Users/casvalkyriespicer/Documents/GitHub/layout-in-react/src/productlayout3.jpeg");
+  background-repeat: no-repeat;
+  height: 100vh;
+  max-width: 100vw;
+  text-align: center;
+  margin: 0 auto;
+  background-size: contain;
+  align-items: center;
+  justify-content: center;
+  /* width: 100%;
+  object-fit: contain;
+  max-height: 850px; */
 }
